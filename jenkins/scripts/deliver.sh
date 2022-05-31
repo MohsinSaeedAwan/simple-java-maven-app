@@ -25,5 +25,5 @@ echo 'application (which Jenkins built using Maven) to the Jenkins UI.'
 set -x
 pwd
 whoami
-cp -r target/${NAME}-${VERSION}.jar /tmp/artifact/
+cp -r target/${NAME}-${VERSION}.jar artifacts/
 java -jar target/${NAME}-${VERSION}.jar
